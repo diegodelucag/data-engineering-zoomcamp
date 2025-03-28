@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-zoomcamp-2025-447815 # en BQ es denominado dataset
+    schema: diego_maradona_1960
+    
+    tables:
+    - name: green_tripdata
+    - name: yellow_tripdata
